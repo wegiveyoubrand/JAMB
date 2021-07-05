@@ -461,7 +461,7 @@ section {
 
 section:first-child {
   height: calc(100vh - 6rem);
-  background-image: url("/JAMB/public/images/Jamb-2-1.jpeg");
+  background-image: url("/public/images/Jamb-2-1.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--baseColor);
