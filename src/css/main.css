@@ -209,6 +209,11 @@ label {
           box-shadow: 0 0 20px var(--soften__baseColor);
   border-radius: 15px;
   margin-bottom: 20px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .card.service .card__image {
