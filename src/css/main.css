@@ -208,6 +208,7 @@ label {
   -webkit-box-shadow: 0 0 20px var(--soften__baseColor);
           box-shadow: 0 0 20px var(--soften__baseColor);
   border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 .card.service .card__image {
