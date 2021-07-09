@@ -208,13 +208,32 @@ label {
 }
 
 .card.service .card__image {
+  position: relative;
   height: 180px;
   -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
       align-self: center;
-  width: auto;
-  -ms-grid-column-align: center;
-      justify-self: center;
+  width: 180px;
+  justify-self: center;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px var(--baseColor);
+          box-shadow: 0 0 20px var(--baseColor);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card.service .card__image img {
+  height: 90%;
+  width: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .card.news {
