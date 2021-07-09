@@ -205,6 +205,8 @@ label {
 .card.service {
   background-color: var(--soften__baseColor);
   text-align: center;
+  -webkit-box-shadow: 0 0 20px var(--soften__baseColor);
+          box-shadow: 0 0 20px var(--soften__baseColor);
 }
 
 .card.service .card__image {
