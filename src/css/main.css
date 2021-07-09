@@ -207,6 +207,7 @@ label {
   text-align: center;
   -webkit-box-shadow: 0 0 20px var(--soften__baseColor);
           box-shadow: 0 0 20px var(--soften__baseColor);
+  border-radius: 15px;
 }
 
 .card.service .card__image {
@@ -489,7 +490,7 @@ main {
 
 section {
   position: relative;
-  padding: var(--default-space);
+  padding: 20px;
   height: 100%;
 }
 
@@ -512,7 +513,7 @@ section:first-child > div {
 section:first-child > div h3 {
   font-size: 1.75rem;
   line-height: 1.2;
-  margin-bottom: var(--default-space);
+  margin-bottom: calc(var(--default-space) + 10px);
 }
 
 @media (min-width: 620px) {
@@ -523,7 +524,7 @@ section:first-child > div h3 {
 
 section:first-child > div p {
   text-transform: lowercase;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 section.news {
